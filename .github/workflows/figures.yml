@@ -33,9 +33,8 @@ jobs:
 
       - name: Build the Figures
         run: |
-          cd Figures
           bash ./build-gns3p.sh
-          zip ../Figures.zip *.gns3p
+          zip ./Figures.zip *.gns3p
 
       - name: Upload Release Asset (Figures)
         id: upload-release-asset-figures
