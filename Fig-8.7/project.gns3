@@ -4,7 +4,7 @@
     "auto_start": false,
     "drawing_grid_size": 25,
     "grid_size": 75,
-    "name": "Fig-8.7",
+    "name": "Fig-8_7",
     "project_id": "cc4f2db6-de1b-4866-8e7f-3cd058b17c87",
     "revision": 9,
     "scene_height": 1000,
@@ -856,5 +856,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.0",
-    "zoom": 80
+    "zoom": 100
 }

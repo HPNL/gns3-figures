@@ -4,13 +4,13 @@
     "auto_start": false,
     "drawing_grid_size": 25,
     "grid_size": 75,
-    "name": "Fig-4.12",
+    "name": "Fig-4_12",
     "project_id": "5eb4668b-e5ad-40b5-b255-c97f0196d047",
     "revision": 9,
     "scene_height": 1000,
     "scene_width": 2000,
     "show_grid": false,
-    "show_interface_labels": false,
+    "show_interface_labels": true,
     "show_layers": false,
     "snap_to_grid": false,
     "supplier": null,
@@ -963,5 +963,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.12",
-    "zoom": 141
+    "zoom": 100
 }

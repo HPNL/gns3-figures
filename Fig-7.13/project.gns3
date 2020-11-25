@@ -4,13 +4,13 @@
     "auto_start": false,
     "drawing_grid_size": 75,
     "grid_size": 75,
-    "name": "Fig-7.13",
+    "name": "Fig-7_13",
     "project_id": "873349f9-76fd-409c-bb08-299d5fce07b9",
     "revision": 9,
     "scene_height": 1000,
     "scene_width": 2000,
     "show_grid": false,
-    "show_interface_labels": false,
+    "show_interface_labels": true,
     "show_layers": false,
     "snap_to_grid": false,
     "supplier": null,
@@ -564,5 +564,5 @@
     "type": "topology",
     "variables": null,
     "version": "2.2.0",
-    "zoom": 71
+    "zoom": 100
 }
