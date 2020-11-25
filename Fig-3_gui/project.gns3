@@ -245,12 +245,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "h0.utnetlab",
+                    "text": "h0.netlab",
                     "x": -14,
                     "y": -25
                 },
                 "locked": false,
-                "name": "h0.utnetlab",
+                "name": "h0.netlab",
                 "node_id": "24585dde-7c83-4d84-a0d5-128bde518a88",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
@@ -287,12 +287,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "h1.utnetlab",
+                    "text": "h1.netlab",
                     "x": -14,
                     "y": -25
                 },
                 "locked": false,
-                "name": "h1.utnetlab",
+                "name": "h1.netlab",
                 "node_id": "81729bbb-c75e-403c-8dd9-110968f47d53",
                 "node_type": "docker",
                 "port_name_format": "Ethernet{0}",
