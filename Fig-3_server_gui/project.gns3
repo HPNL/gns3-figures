@@ -1,0 +1,144 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "Fig-8_server_gui",
+    "project_id": "f66bdf27-33c6-4aa3-b3ab-a62da75964e8",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": false,
+    "show_layers": false,
+    "snap_to_grid": true,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "8077edff-b0cd-4535-a8fe-cf0327243904",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": 72,
+                            "y": 29
+                        },
+                        "node_id": "23ec5246-2be7-40ae-9d5a-59bc3ff92a06",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "eth0",
+                            "x": -7,
+                            "y": 29
+                        },
+                        "node_id": "c50651bc-ba4f-4a46-8c9d-a92591b0bc4d",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5000,
+                "console_auto_start": false,
+                "console_type": "https",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "gui.netlab",
+                    "x": -8,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "gui.netlab",
+                "node_id": "23ec5246-2be7-40ae-9d5a-59bc3ff92a06",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 1,
+                    "aux": 5001,
+                    "console_http_path": "/",
+                    "console_http_port": 443,
+                    "console_resolution": "1024x768",
+                    "container_id": "0237db92b94eedb86993a1c22060db512bd98d5b798e04f5e5dee2e3727f48da",
+                    "environment": "",
+                    "extra_hosts": "server.netlab:128.238.66.100\ngui.netlab:128.238.66.101",
+                    "extra_volumes": [],
+                    "image": "utnetlab/gui:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/docker_guest.svg",
+                "template_id": "54b1c22a-cdd7-4977-ad12-a3953977669e",
+                "width": 65,
+                "x": -257,
+                "y": -104,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5002,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "server.netlab",
+                    "x": -20,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "server.netlab",
+                "node_id": "c50651bc-ba4f-4a46-8c9d-a92591b0bc4d",
+                "node_type": "docker",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapters": 1,
+                    "aux": 5003,
+                    "console_http_path": "/",
+                    "console_http_port": 80,
+                    "console_resolution": "1024x768",
+                    "container_id": "8bc3e31166956b74993b0873b3eba1d1f29e9e9f77e7c153bd98f947a04ca6b6",
+                    "environment": "",
+                    "extra_hosts": "server.netlab:128.238.66.100\ngui.netlab:128.238.66.101",
+                    "extra_volumes": [],
+                    "image": "utnetlab/term:latest",
+                    "start_command": null,
+                    "usage": ""
+                },
+                "symbol": ":/symbols/docker_guest.svg",
+                "template_id": "7cb790b7-c70a-4d5a-b0d7-6bb1aaea374e",
+                "width": 65,
+                "x": 42,
+                "y": -104,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.16",
+    "zoom": 100
+}
