@@ -423,7 +423,7 @@
                     "extra_hosts": "nh1.netlab:128.238.63.101\nh2.netlab:128.238.63.102\nh3.netlab:128.238.64.103\nh4.netlab:128.238.64.104\ne0.r1.netlab:128.238.63.3\ne1.r1.netlab:128.238.64.3",
                     "extra_volumes": [],
                     "image": "utnetlab/term:latest",
-                    "start_command": null,
+                    "start_command": "sh -c 'echo 0 > /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts; route add -net 224.0.0.0 netmask 240.0.0.0 dev eth0; echo Salam; service xinetd start; cd; exec bash -i'",
                     "usage": ""
                 },
                 "symbol": ":/symbols/docker_guest.svg",
@@ -465,7 +465,7 @@
                     "extra_hosts": "nh1.netlab:128.238.63.101\nh2.netlab:128.238.63.102\nh3.netlab:128.238.64.103\nh4.netlab:128.238.64.104\ne0.r1.netlab:128.238.63.3\ne1.r1.netlab:128.238.64.3",
                     "extra_volumes": [],
                     "image": "utnetlab/term:latest",
-                    "start_command": null,
+                    "start_command": "sh -c 'echo 0 > /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts; route add -net 224.0.0.0 netmask 240.0.0.0 dev eth0; echo Salam; service xinetd start; cd; exec bash -i'",
                     "usage": ""
                 },
                 "symbol": ":/symbols/docker_guest.svg",
@@ -507,7 +507,7 @@
                     "extra_hosts": "nh1.netlab:128.238.63.101\nh2.netlab:128.238.63.102\nh3.netlab:128.238.64.103\nh4.netlab:128.238.64.104\ne0.r1.netlab:128.238.63.3\ne1.r1.netlab:128.238.64.3",
                     "extra_volumes": [],
                     "image": "utnetlab/term:latest",
-                    "start_command": null,
+                    "start_command": "sh -c 'echo 0 > /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts; route add -net 224.0.0.0 netmask 240.0.0.0 dev eth0; echo Salam; service xinetd start; cd; exec bash -i'",
                     "usage": ""
                 },
                 "symbol": ":/symbols/docker_guest.svg",
@@ -549,7 +549,7 @@
                     "extra_hosts": "nh1.netlab:128.238.63.101\nh2.netlab:128.238.63.102\nh3.netlab:128.238.64.103\nh4.netlab:128.238.64.104\ne0.r1.netlab:128.238.63.3\ne1.r1.netlab:128.238.64.3",
                     "extra_volumes": [],
                     "image": "utnetlab/term:latest",
-                    "start_command": null,
+                    "start_command": "sh -c 'echo 0 > /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts; route add -net 224.0.0.0 netmask 240.0.0.0 dev eth0; echo Salam; service xinetd start; cd; exec bash -i'",
                     "usage": ""
                 },
                 "symbol": ":/symbols/docker_guest.svg",
