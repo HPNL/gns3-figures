@@ -222,7 +222,7 @@
                     "y": -25
                 },
                 "locked": false,
-                "name": "R3",
+                "name": "R",
                 "node_id": "271c404a-8ad0-49a5-b676-c2dd5fa0774a",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
