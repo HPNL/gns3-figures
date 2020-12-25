@@ -1,1 +1,388 @@
-{"auto_start": false, "zoom": 100, "project_id": "01323243-545f-497b-8d25-6f4e7ec63307", "show_interface_labels": false, "scene_width": 2000, "revision": 8, "version": "2.1.21", "snap_to_grid": false, "type": "topology", "supplier": null, "scene_height": 1000, "topology": {"computes": [], "drawings": [], "links": [{"suspend": false, "nodes": [{"node_id": "d70671c6-c9aa-4abe-aa17-a64dcdb5de57", "port_number": 0, "adapter_number": 0, "label": {"x": 22, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "e0", "y": -21}}, {"node_id": "b47da0b9-811c-4c92-b996-16a950c7b1b4", "port_number": 1, "adapter_number": 0, "label": {"x": 46, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "f0/1", "y": 59}}], "link_id": "5486c0fe-4bcb-4db5-9acd-3a8c1ae11fdd", "filters": {}}, {"suspend": false, "nodes": [{"node_id": "7e1d29f1-58f8-4939-985e-4b02f775619e", "port_number": 0, "adapter_number": 0, "label": {"x": 30, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "eth0", "y": 69}}, {"node_id": "b47da0b9-811c-4c92-b996-16a950c7b1b4", "port_number": 0, "adapter_number": 0, "label": {"x": 35, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "f0/0", "y": -17}}], "link_id": "fefdb061-576e-40b1-a274-7f00566a263d", "filters": {}}, {"suspend": false, "nodes": [{"node_id": "28946ff0-0209-4976-8317-190921a172e2", "port_number": 0, "adapter_number": 0, "label": {"x": 72, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "eth0", "y": 34}}, {"node_id": "d70671c6-c9aa-4abe-aa17-a64dcdb5de57", "port_number": 1, "adapter_number": 0, "label": {"x": -4, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "e1", "y": 11}}], "link_id": "a509f1e3-b6bd-43be-a1d3-638346cd56bf", "filters": {}}, {"suspend": false, "nodes": [{"node_id": "55b53f5c-fefa-4015-b850-a946525dd1ee", "port_number": 0, "adapter_number": 0, "label": {"x": -7, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "eth0", "y": 28}}, {"node_id": "d70671c6-c9aa-4abe-aa17-a64dcdb5de57", "port_number": 2, "adapter_number": 0, "label": {"x": 75, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "e2", "y": 16}}], "link_id": "1a2f046f-e4e7-4bc6-8681-4476cc2ffe0c", "filters": {}}], "nodes": [{"first_port_name": null, "width": 65, "y": 28, "symbol": ":/symbols/docker_guest.svg", "z": 0, "port_segment_size": 0, "node_type": "docker", "console": 5019, "console_type": "https", "height": 59, "compute_id": "local", "port_name_format": "Ethernet{0}", "x": -193, "properties": {"console_http_port": 443, "adapters": 1, "console_resolution": "1024x768", "environment": "", "aux": 5021, "console_http_path": "/", "image": "utnetlab/gui:latest", "container_id": "60c6de217e659ba272cbe0fe5cd86fa4768ae55a6e3fb6bfd67787363f9504ae", "start_command": "sysctl net.ipv4.icmp_echo_ignore_broadcasts=0", "extra_hosts": "h0.netlab:128.238.61.100\nh1.netlab:128.238.62.101\nh2.netlab:128.238.62.102\n"}, "node_id": "55b53f5c-fefa-4015-b850-a946525dd1ee", "name": "h1.netlab", "label": {"x": -6, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "h1.netlab", "y": -25}}, {"first_port_name": null, "width": 65, "y": -242, "symbol": ":/symbols/docker_guest.svg", "z": 0, "port_segment_size": 0, "node_type": "docker", "console": 5005, "console_type": "https", "height": 59, "compute_id": "local", "port_name_format": "Ethernet{0}", "x": -302, "properties": {"console_http_port": 443, "adapters": 1, "console_resolution": "1024x768", "environment": "", "aux": 5007, "console_http_path": "/", "image": "utnetlab/gui:latest", "container_id": "e05209ece0e2b07c35eb45c5621b78da0d2ed7523d183cc3a0c3b81c342b6fd8", "start_command": "sysctl net.ipv4.icmp_echo_ignore_broadcasts=0", "extra_hosts": "h0.netlab:128.238.61.100\nh1.netlab:128.238.62.101\nh2.netlab:128.238.62.102\n"}, "node_id": "7e1d29f1-58f8-4939-985e-4b02f775619e", "name": "h0.netlab", "label": {"x": -6, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "h0.netlab", "y": -25}}, {"first_port_name": null, "width": 72, "y": -26, "symbol": ":/symbols/ethernet_switch.svg", "z": 0, "port_segment_size": 0, "node_type": "ethernet_switch", "console": 5022, "console_type": "telnet", "height": 32, "compute_id": "local", "port_name_format": "Ethernet{0}", "x": -305, "properties": {"ports_mapping": [{"vlan": 1, "type": "access", "port_number": 0, "name": "Ethernet0"}, {"vlan": 1, "type": "access", "port_number": 1, "name": "Ethernet1"}, {"vlan": 1, "type": "access", "port_number": 2, "name": "Ethernet2"}, {"vlan": 1, "type": "access", "port_number": 3, "name": "Ethernet3"}, {"vlan": 1, "type": "access", "port_number": 4, "name": "Ethernet4"}, {"vlan": 1, "type": "access", "port_number": 5, "name": "Ethernet5"}, {"vlan": 1, "type": "access", "port_number": 6, "name": "Ethernet6"}, {"vlan": 1, "type": "access", "port_number": 7, "name": "Ethernet7"}]}, "node_id": "d70671c6-c9aa-4abe-aa17-a64dcdb5de57", "name": "Ethernetswitch-1", "label": {"x": -31, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "Ethernetswitch-1", "y": -25}}, {"first_port_name": null, "width": 66, "y": -134, "symbol": ":/symbols/router.svg", "z": 0, "port_segment_size": 0, "node_type": "dynamips", "console": 5023, "console_type": "telnet", "height": 45, "compute_id": "local", "port_name_format": "Ethernet{0}", "x": -302, "properties": {"iomem": 5, "idlepc": "0x602467a4", "image": "c3725-adventerprisek9-mz.124-25d.image", "disk1": 0, "idlesleep": 30, "exec_area": 64, "mac_addr": "c201.3d18.0000", "wic1": null, "system_id": "FTX0945W0MY", "clock_divisor": 8, "auto_delete_disks": true, "aux": null, "nvram": 256, "wic2": null, "wic0": null, "sparsemem": true, "image_md5sum": "606484061b9e52e71d4f4ddab9af19e7", "slot1": null, "slot0": "GT96100-FE", "disk0": 0, "mmap": true, "slot2": null, "dynamips_id": 1, "ram": 160, "platform": "c3725", "idlemax": 500}, "node_id": "b47da0b9-811c-4c92-b996-16a950c7b1b4", "name": "R1", "label": {"x": 19, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "R1", "y": -25}}, {"first_port_name": null, "width": 65, "y": 22, "symbol": ":/symbols/docker_guest.svg", "z": 0, "port_segment_size": 0, "node_type": "docker", "console": 5024, "console_type": "https", "height": 59, "compute_id": "local", "port_name_format": "Ethernet{0}", "x": -420, "properties": {"console_http_port": 443, "adapters": 1, "console_resolution": "1024x768", "environment": "", "aux": 5025, "console_http_path": "/", "image": "utnetlab/gui:latest", "container_id": "733f010e6a5002fdfbbb96c5cacbedfa32aa4d0cb767603efaba02533dac347d", "start_command": "sysctl net.ipv4.icmp_echo_ignore_broadcasts=0", "extra_hosts": "h0.netlab:128.238.61.100\nh1.netlab:128.238.62.101\nh2.netlab:128.238.62.102\n"}, "node_id": "28946ff0-0209-4976-8317-190921a172e2", "name": "h2.netlab", "label": {"x": -6, "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;", "rotation": 0, "text": "h2.netlab", "y": -25}}]}, "grid_size": 0, "auto_close": true, "variables": null, "show_layers": false, "show_grid": false, "auto_open": false, "name": "Lab7-video-multicast"}
+{
+    "auto_start": false,
+    "zoom": 100,
+    "project_id": "01323243-545f-497b-8d25-6f4e7ec63307",
+    "show_interface_labels": false,
+    "scene_width": 2000,
+    "revision": 8,
+    "version": "2.1.21",
+    "snap_to_grid": false,
+    "type": "topology",
+    "supplier": null,
+    "scene_height": 1000,
+    "topology": {
+        "computes": [],
+        "drawings": [],
+        "links": [
+            {
+                "suspend": false,
+                "nodes": [
+                    {
+                        "node_id": "d70671c6-c9aa-4abe-aa17-a64dcdb5de57",
+                        "port_number": 0,
+                        "adapter_number": 0,
+                        "label": {
+                            "x": 22,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "rotation": 0,
+                            "text": "e0",
+                            "y": -21
+                        }
+                    },
+                    {
+                        "node_id": "b47da0b9-811c-4c92-b996-16a950c7b1b4",
+                        "port_number": 1,
+                        "adapter_number": 0,
+                        "label": {
+                            "x": 46,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "rotation": 0,
+                            "text": "f0/1",
+                            "y": 59
+                        }
+                    }
+                ],
+                "link_id": "5486c0fe-4bcb-4db5-9acd-3a8c1ae11fdd",
+                "filters": {}
+            },
+            {
+                "suspend": false,
+                "nodes": [
+                    {
+                        "node_id": "7e1d29f1-58f8-4939-985e-4b02f775619e",
+                        "port_number": 0,
+                        "adapter_number": 0,
+                        "label": {
+                            "x": 30,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "rotation": 0,
+                            "text": "eth0",
+                            "y": 69
+                        }
+                    },
+                    {
+                        "node_id": "b47da0b9-811c-4c92-b996-16a950c7b1b4",
+                        "port_number": 0,
+                        "adapter_number": 0,
+                        "label": {
+                            "x": 35,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "rotation": 0,
+                            "text": "f0/0",
+                            "y": -17
+                        }
+                    }
+                ],
+                "link_id": "fefdb061-576e-40b1-a274-7f00566a263d",
+                "filters": {}
+            },
+            {
+                "suspend": false,
+                "nodes": [
+                    {
+                        "node_id": "28946ff0-0209-4976-8317-190921a172e2",
+                        "port_number": 0,
+                        "adapter_number": 0,
+                        "label": {
+                            "x": 72,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "rotation": 0,
+                            "text": "eth0",
+                            "y": 34
+                        }
+                    },
+                    {
+                        "node_id": "d70671c6-c9aa-4abe-aa17-a64dcdb5de57",
+                        "port_number": 1,
+                        "adapter_number": 0,
+                        "label": {
+                            "x": -4,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "rotation": 0,
+                            "text": "e1",
+                            "y": 11
+                        }
+                    }
+                ],
+                "link_id": "a509f1e3-b6bd-43be-a1d3-638346cd56bf",
+                "filters": {}
+            },
+            {
+                "suspend": false,
+                "nodes": [
+                    {
+                        "node_id": "55b53f5c-fefa-4015-b850-a946525dd1ee",
+                        "port_number": 0,
+                        "adapter_number": 0,
+                        "label": {
+                            "x": -7,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "rotation": 0,
+                            "text": "eth0",
+                            "y": 28
+                        }
+                    },
+                    {
+                        "node_id": "d70671c6-c9aa-4abe-aa17-a64dcdb5de57",
+                        "port_number": 2,
+                        "adapter_number": 0,
+                        "label": {
+                            "x": 75,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "rotation": 0,
+                            "text": "e2",
+                            "y": 16
+                        }
+                    }
+                ],
+                "link_id": "1a2f046f-e4e7-4bc6-8681-4476cc2ffe0c",
+                "filters": {}
+            }
+        ],
+        "nodes": [
+            {
+                "first_port_name": null,
+                "width": 65,
+                "y": 28,
+                "symbol": ":/symbols/docker_guest.svg",
+                "z": 0,
+                "port_segment_size": 0,
+                "node_type": "docker",
+                "console": 5019,
+                "console_type": "https",
+                "height": 59,
+                "compute_id": "local",
+                "port_name_format": "Ethernet{0}",
+                "x": -193,
+                "properties": {
+                    "console_http_port": 443,
+                    "adapters": 1,
+                    "console_resolution": "1024x768",
+                    "environment": "",
+                    "aux": 5021,
+                    "console_http_path": "/",
+                    "image": "utnetlab/gui:latest",
+                    "container_id": "60c6de217e659ba272cbe0fe5cd86fa4768ae55a6e3fb6bfd67787363f9504ae",
+                    "start_command": "sysctl net.ipv4.icmp_echo_ignore_broadcasts=0",
+                    "extra_hosts": "h0.netlab:128.238.61.100\nh1.netlab:128.238.62.101\nh2.netlab:128.238.62.102\n"
+                },
+                "node_id": "55b53f5c-fefa-4015-b850-a946525dd1ee",
+                "name": "h1.netlab",
+                "label": {
+                    "x": -6,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "rotation": 0,
+                    "text": "h1.netlab",
+                    "y": -25
+                }
+            },
+            {
+                "first_port_name": null,
+                "width": 65,
+                "y": -242,
+                "symbol": ":/symbols/docker_guest.svg",
+                "z": 0,
+                "port_segment_size": 0,
+                "node_type": "docker",
+                "console": 5005,
+                "console_type": "https",
+                "height": 59,
+                "compute_id": "local",
+                "port_name_format": "Ethernet{0}",
+                "x": -302,
+                "properties": {
+                    "console_http_port": 443,
+                    "adapters": 1,
+                    "console_resolution": "1024x768",
+                    "environment": "",
+                    "aux": 5007,
+                    "console_http_path": "/",
+                    "image": "utnetlab/gui:latest",
+                    "container_id": "e05209ece0e2b07c35eb45c5621b78da0d2ed7523d183cc3a0c3b81c342b6fd8",
+                    "start_command": "sysctl net.ipv4.icmp_echo_ignore_broadcasts=0",
+                    "extra_hosts": "h0.netlab:128.238.61.100\nh1.netlab:128.238.62.101\nh2.netlab:128.238.62.102\n"
+                },
+                "node_id": "7e1d29f1-58f8-4939-985e-4b02f775619e",
+                "name": "h0.netlab",
+                "label": {
+                    "x": -6,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "rotation": 0,
+                    "text": "h0.netlab",
+                    "y": -25
+                }
+            },
+            {
+                "first_port_name": null,
+                "width": 72,
+                "y": -26,
+                "symbol": ":/symbols/ethernet_switch.svg",
+                "z": 0,
+                "port_segment_size": 0,
+                "node_type": "ethernet_switch",
+                "console": 5022,
+                "console_type": "telnet",
+                "height": 32,
+                "compute_id": "local",
+                "port_name_format": "Ethernet{0}",
+                "x": -305,
+                "properties": {
+                    "ports_mapping": [
+                        {
+                            "vlan": 1,
+                            "type": "access",
+                            "port_number": 0,
+                            "name": "Ethernet0"
+                        },
+                        {
+                            "vlan": 1,
+                            "type": "access",
+                            "port_number": 1,
+                            "name": "Ethernet1"
+                        },
+                        {
+                            "vlan": 1,
+                            "type": "access",
+                            "port_number": 2,
+                            "name": "Ethernet2"
+                        },
+                        {
+                            "vlan": 1,
+                            "type": "access",
+                            "port_number": 3,
+                            "name": "Ethernet3"
+                        },
+                        {
+                            "vlan": 1,
+                            "type": "access",
+                            "port_number": 4,
+                            "name": "Ethernet4"
+                        },
+                        {
+                            "vlan": 1,
+                            "type": "access",
+                            "port_number": 5,
+                            "name": "Ethernet5"
+                        },
+                        {
+                            "vlan": 1,
+                            "type": "access",
+                            "port_number": 6,
+                            "name": "Ethernet6"
+                        },
+                        {
+                            "vlan": 1,
+                            "type": "access",
+                            "port_number": 7,
+                            "name": "Ethernet7"
+                        }
+                    ]
+                },
+                "node_id": "d70671c6-c9aa-4abe-aa17-a64dcdb5de57",
+                "name": "Ethernetswitch-1",
+                "label": {
+                    "x": -31,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "rotation": 0,
+                    "text": "Ethernetswitch-1",
+                    "y": -25
+                }
+            },
+            {
+                "first_port_name": null,
+                "width": 66,
+                "y": -134,
+                "symbol": ":/symbols/router.svg",
+                "z": 0,
+                "port_segment_size": 0,
+                "node_type": "dynamips",
+                "console": 5023,
+                "console_type": "telnet",
+                "height": 45,
+                "compute_id": "local",
+                "port_name_format": "Ethernet{0}",
+                "x": -302,
+                "properties": {
+                    "iomem": 5,
+                    "idlepc": "0x602467a4",
+                    "image": "c3725-adventerprisek9-mz.124-25d.image",
+                    "disk1": 0,
+                    "idlesleep": 30,
+                    "exec_area": 64,
+                    "mac_addr": "c201.3d18.0000",
+                    "wic1": null,
+                    "system_id": "FTX0945W0MY",
+                    "clock_divisor": 8,
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "nvram": 256,
+                    "wic2": null,
+                    "wic0": null,
+                    "sparsemem": true,
+                    "image_md5sum": "606484061b9e52e71d4f4ddab9af19e7",
+                    "slot1": null,
+                    "slot0": "GT96100-FE",
+                    "disk0": 0,
+                    "mmap": true,
+                    "slot2": null,
+                    "dynamips_id": 1,
+                    "ram": 160,
+                    "platform": "c3725",
+                    "idlemax": 500
+                },
+                "node_id": "b47da0b9-811c-4c92-b996-16a950c7b1b4",
+                "name": "R1",
+                "label": {
+                    "x": 19,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "rotation": 0,
+                    "text": "R1",
+                    "y": -25
+                }
+            },
+            {
+                "first_port_name": null,
+                "width": 65,
+                "y": 22,
+                "symbol": ":/symbols/docker_guest.svg",
+                "z": 0,
+                "port_segment_size": 0,
+                "node_type": "docker",
+                "console": 5024,
+                "console_type": "https",
+                "height": 59,
+                "compute_id": "local",
+                "port_name_format": "Ethernet{0}",
+                "x": -420,
+                "properties": {
+                    "console_http_port": 443,
+                    "adapters": 1,
+                    "console_resolution": "1024x768",
+                    "environment": "",
+                    "aux": 5025,
+                    "console_http_path": "/",
+                    "image": "utnetlab/gui:latest",
+                    "container_id": "733f010e6a5002fdfbbb96c5cacbedfa32aa4d0cb767603efaba02533dac347d",
+                    "start_command": "sysctl net.ipv4.icmp_echo_ignore_broadcasts=0",
+                    "extra_hosts": "h0.netlab:128.238.61.100\nh1.netlab:128.238.62.101\nh2.netlab:128.238.62.102\n"
+                },
+                "node_id": "28946ff0-0209-4976-8317-190921a172e2",
+                "name": "h2.netlab",
+                "label": {
+                    "x": -6,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "rotation": 0,
+                    "text": "h2.netlab",
+                    "y": -25
+                }
+            }
+        ]
+    },
+    "grid_size": 0,
+    "auto_close": true,
+    "variables": null,
+    "show_layers": false,
+    "show_grid": false,
+    "auto_open": false,
+    "name": "Lab7-video-multicast"
+}
