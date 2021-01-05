@@ -8,7 +8,8 @@ You can generate `.gns3p` by running `./build-gns3p.sh` in bash or copy folder t
 
 ## TODO
 
-* [ ] change figure name `.` to `_`
+* [ ] add default gw for pre-configured figures (set gw in `/etc/network/interfaces`)
+* [X] change figure name `.` to `_`
 * [ ] align topology item with grid lines
 * [ ] figure 8.7, 5.5
 * [X] figure gui(1)/server(2)/router(1) with ip and route
