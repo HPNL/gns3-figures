@@ -10,6 +10,8 @@ iface eth0 inet static
 	netmask 255.255.255.0
 #	gateway 192.168.0.1
 #	up echo nameserver 192.168.0.1 > /etc/resolv.conf
+#	up ip route add default via 128.238.61.1 dev eth0  metric 100
+#	up ip route add default via 128.238.61.4 dev eth0  metric 200
 
 # DHCP config for eth0
 # auto eth0
