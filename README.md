@@ -14,8 +14,6 @@ You can download last `.gns3p` [release](https://github.com/UT-Network-Lab/gns3-
 
 * [ ] add and set delay for delayed figures
 * [ ] add default gw for pre-configured figures (set gw in `/etc/network/interfaces`)
-* [X] change figure name `.` to `_`
 * [ ] align topology item with grid lines
-* [ ] figure 8.7, 5.5
-* [X] figure gui(1)/server(2)/router(1) with ip and route
-* [X] change type of h2, h7 to gui for figure 7.14
+* [ ] add link delay (0.2 ms)
+* [ ] figure 5.5
